@@ -11,7 +11,7 @@ This is a task management program from keeping track of users and their tasks. I
 * add tasks.
 
 ## Installation: 
-Username 'admin' and password 'adm1n' are valid login credentials. All other credentials are listed in users.txt.
+Username 'admin' and password 'adm1n' are valid login credentials. All other credentials are listed in users.txt. Tasks are in tasks.txt, some are included already to demonstrate functionality.
 
 ## Uses: 
 Any organisation that does anything could use this. It's a simple, no-nonsense task manager that works well straight out of the box. 
