@@ -1,5 +1,4 @@
 Country,Code,Product,Cost,Quantity
-
 South Africa,SKU44386,Air Max 90,2300,20
 China,SKU90000,Jordan 1,3200,50
 Vietnam,SKU63221,Blazer,1700,19
@@ -28,3 +27,5 @@ Ireland,SKU88990,Exo Skels YL8,2699,14
 Iceland,SKU11244,Air Breezy,1400,11
 Denmark,SKU11197,Air Cobblers,999,42
 Japan,SKU70155,Air Braves,150 ,19
+Honduras,SKU55134,Chills 2,199,18
+Mexico,SKU90112,Slim Waves,249,24
