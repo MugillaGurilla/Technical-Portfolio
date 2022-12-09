@@ -10,6 +10,8 @@ This software allows a bookstore to view and manage its stock. It utilises Natur
 * View All Stock 
 * Exit
 
+bulk_add.py is a function I've coded for bulk adding books from a CSV file, provided the data inside the CSV is clean. 
+
 ## Installation:
 The software will run irrespective of whether data/ebookstore already exists. If it doesn't exist, the program will create the database and initialise it with stock. 
 
