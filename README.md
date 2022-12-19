@@ -3,6 +3,7 @@
 I'm a software engineer with experience in...
 * Python
 * C++ 
+* GUIs
 * SQL
 * Django
 * OOP
