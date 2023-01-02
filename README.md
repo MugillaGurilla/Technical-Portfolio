@@ -5,6 +5,7 @@ I'm a software engineer with experience in...
 * C++ 
 * GUIs
 * SQL
+* node.js
 * Django
 * OOP
 * Git (what gave it away?)
