@@ -14,9 +14,9 @@ I made this game, following an online tutorial, because I love making games and 
 
 ## Installation:
 You can use any number of local servers to run this. I prefer either Live Server, from within VS Code, or, if you have node.js on your system, http-server. The appropriates commands to install http-server from terminal are...
-``` nom install http-server ```
-``` cd path/to/theproject ```
-``` http-server ```
+``` nom install http-server ``` \
+``` cd path/to/theproject ``` \
+``` http-server ``` \
 
 ## Uses: 
 Fun
