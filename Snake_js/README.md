@@ -27,5 +27,5 @@ Cormac Porter (MugillaGurilla)
 
 
 ## Media: 
-See the video and pictures for actions shots
+See the video and pictures for actions shots \
 ![action-shot](action-shot.png)

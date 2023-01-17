@@ -30,7 +30,7 @@ Fun
 Cormac Porter (MugillaGurilla)
 
 ## Media: 
-See the video and pictures for actions shots
+See the video and pictures for actions shots \
 ![action-shot-1](action-shot-1.png)
 ![action-shot-2](action-shot-2.png)
 ![action-shot-3](action-shot-3.png)
