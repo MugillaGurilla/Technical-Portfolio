@@ -1,0 +1,26 @@
+
+body 
+{
+    font-size: 2rem;
+    font-family: "Cambria", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(
+        0deg,
+        rgb(97,98,99) 0%,
+        rgba(0,0,0,0) 100%
+    );
+}
+    canvas
+{
+    box-shadow: black 20px 10px 50px;
+}
+h1 
+{
+    margin: 0;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,124 @@
+:root 
+{
+    --bg-main: #2a2a38;
+    --bg-body: black;
+    --color-txt: #b1b0b0;
+
+    --border-radius: 10px;
+
+    --blue: #00aeef;
+
+    --gap: 5px;
+
+    --font-size: 1.5rem;
+    --font-size-lg: 2rem;
+    --font-size-xl: 3rem;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, sans-serif;
+    background-color: var(--bg-body);
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+canvas
+{
+    box-shadow: black 20px 10px 50px;
+    border: 2px solid var(--color-txt);
+}
+h1
+{
+    color: white;
+    font-family: Verdana;
+}
+input
+{
+    color: var(--color-txt);
+}
+.btn
+{
+    height: 80px;
+    width: 280px;
+    background-color: var(--bg-main);
+    color: var(--color-txt);
+    border-radius: var(--border-radius);
+    display: grid;
+    place-items: center;
+    transition: width .3s ease-in-out;
+    overflow: hidden;
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+    margin-bottom: var(--gap);
+}
+.input-name 
+{
+    height: 80px;
+    width: 280px;
+    outline: 0;
+    background-color: var(--bg-main);
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-lg);
+    text-align: center;
+}
+input:hover, input:focus
+{
+    border-color: var(--blue);
+}
+.main
+{
+    height: 100vh;
+    padding-top: 50px;
+    display: grid;
+    place-items: center;
+}
+.screen 
+{
+    position: relative;
+    overflow: unset;
+    height: 100%;
+}
+.start-screen {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: transform .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-body);
+}
+.start-screen.active
+{
+    transform: translateX(0);
+}
+.game-screen 
+{
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    background-color: var(--bg-body);
+
+}
+.game-screen.active
+{
+    transform: translateX(0);
+}
